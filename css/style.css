@@ -1,0 +1,256 @@
+.nav-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.navbar-brand{
+    /* color: e9b200 !important; */
+    color: #a66c00 !important;
+}
+.navbar-brand:hover{
+    text-shadow: 0 0 20px rgb(158, 108, 16);
+}
+.form-control:focus{
+    box-shadow: 0 0 1px 3px rgba(224, 180, 99, 0.808) !important;
+    border: 1px solid rgb(221, 166, 62) !important;
+}
+.search-btn,.login-btn{
+    background-color: #bf8f00 !important;
+}
+.search-btn:hover,.login-btn:hover{
+    transform: scale(0.9,0.9) !important;
+}
+
+
+.side-icons{
+    width: 50px;
+    margin-top: 30vh;
+    right: 0;
+}
+.side-icons a{
+    text-decoration: none;
+    color: #7c600c;
+    display: block;
+    font-size: 40px;
+}
+.side-icons a:hover{
+    color: #bf8f0091;
+}
+
+.carousel-image{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-caption{
+    background-color: rgba(224, 180, 99, 0.808);
+}
+.cap-container{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.english-cap{
+    /* width: 60% !important; */
+    
+}
+.english-cap h5{
+    font-family: 'Andika', sans-serif;
+    font-size: 25px;
+}
+.english-cap p{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+.arabic-cap{
+    /* width: 50% !important; */
+}
+.arabic-cap h5{
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+}
+.arabic-cap p{
+    font-family: 'Amiri', serif;
+    font-size: 25px;
+}
+
+
+
+
+
+.welcome-content1 h2,.welcome-content2 h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    color: #a66c00 !important;
+}
+.welcome-content1 p{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+}
+.welcome-content2 h2{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+.welcome-content2 p{
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-size: 23px;
+}
+
+.caption-button,.welcome-button{
+    background-color: #bf8f00 !important;
+    font-size: 20px !important;
+}
+
+.accordion-header:focus{
+    /* box-shadow: 0 0 2px 3px #bf8f00 !important; */
+    border: 2px solid #bf8f00 !important;
+}
+.acc-p1,.acc-p2{
+    font-size:30 !important;
+    color:rgb(207,149,42) !important;
+    font-weight:bold !important;
+    width: 50% !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+.translation-inner-container >div:hover{
+    border: 1px solid rgb(224, 180, 99);
+    border-radius: 5px;
+}
+.translation-copy-btn button{
+    border: 2px solid rgb(172, 172, 172);
+    font-size: 20px;
+    height: 60px;
+    margin: 10px 0;
+}
+.translation-copy-btn button:hover{
+    border: 2px solid #bf8f00 !important;
+}
+.translation-content p a{
+    text-decoration: none;
+    color: rgb(207,149,42) !important;;
+}
+#sentence{
+    /* width: 95%; */
+}
+
+.separate-img1{
+    background-image: url("../images/louxor.jpg")
+}
+.separate-img2{
+    background-image: url("../images/alex3.jpg")
+}
+.separate-img{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+
+.card-container{
+    position: relative;
+    height: 400px !important;
+    width: 300px !important;
+    border:1px solid rgb(224, 180, 99);
+}
+.card-image{
+    height: 300px !important;
+    border-radius: 15px !important;
+}
+.card-container::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    background-color: #bf8f001e;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+.card-container:hover::before{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.card-container::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bf8f001e;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+.card-container:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.thanks-card-container{
+    width: 350px !important;
+    height: 470px;
+    position: relative;
+    transition: 0.5s;
+}
+.thanks-card-container:hover{
+    transform: scale(0.95,0.95);
+}
+
+.upper-card{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    transition: 0.5s;
+}
+.thanks-card-container:hover .upper-card{
+    top:20px
+}
+.upper-card a{
+    text-decoration: none;
+    color: white;
+}
+.upper-card a:hover{
+    color: rgb(221, 198, 153);
+}
+
+.lower-card{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+.lower-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 180, 99);
+}
+.card1{
+    background-image: url("../images/volunteer4.jpg");
+    background-size: cover;
+}
+.card-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #724b0259;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+}
